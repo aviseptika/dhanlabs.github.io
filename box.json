@@ -62,7 +62,7 @@
 			"parameters": [
 				{
 					"name": "newValue",
-					"type": "number",
+					"type": "integer",
 					"description": "Gauge value"
 				},
 				{
