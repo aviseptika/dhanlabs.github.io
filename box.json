@@ -1,41 +1,41 @@
 {
 	"id": "com.demo.gauge",
 	"version": "1.0.0",
-	"name": "Test Custom Widget",
-	"description": "Belum untuk dijual",
+	"name": "Demo Gauge",
+	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://cdn6.f-cdn.com/contestentries/1462403/29553925/5c2c76060f3e1_thumb900.jpg",
-	"vendor": "DHAN",
+	"icon": "https://dhanlabs.github.io/box/icon.png",
+	"vendor": "AVI",
 	"eula": "EULA",
 	"license": "1.0",
 	"webcomponents": [
 		{
 			"kind": "main",
 			"tag": "com-demo-gauge",
-			"url": "https://dhanangbilang.github.io/testSACwidget/box.js",
+			"url": "https://dhanlabs.github.io/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
 			"tag": "com-demo-gauge-sps",
-			"url": "https://dhanangbilang.github.io/testSACwidget/box_sps.js",
+			"url": "https://dhanlabs.github.io/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "https://dhanangbilang.github.io/testSACwidget/box_bps.js",
+			"url": "hhttps://dhanlabs.github.io/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
 	],
 	"properties": {
 		"value": {
-			"type": "integer",
+			"type": "number",
 			"description": "Gauge value",
-			"default": 33
+			"default": 0
 		},
 		"info": {
 			"type": "string",
@@ -62,7 +62,7 @@
 			"parameters": [
 				{
 					"name": "newValue",
-					"type": "integer",
+					"type": "number",
 					"description": "Gauge value"
 				},
 				{
