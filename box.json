@@ -26,16 +26,16 @@
 		{
 			"kind": "builder",
 			"tag": "com-demo-box-bps",
-			"url": "hhttps://dhanlabs.github.io/box/box_bps.js",
+			"url": "https://dhanlabs.github.io/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
 	],
 	"properties": {
 		"value": {
-			"type": "number",
+			"type": "integer",
 			"description": "Gauge value",
-			"default": 0
+			"default": 30
 		},
 		"info": {
 			"type": "string",
